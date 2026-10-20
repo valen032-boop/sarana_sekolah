@@ -1,0 +1,12 @@
+body { background: #f4f6fb; min-height: 100vh; display: flex; flex-direction: column; }
+main { flex: 1; }
+.card { border: 0; border-radius: 12px; box-shadow: 0 1px 4px rgba(20, 40, 90, .08); }
+.stat-card .angka { font-size: 2rem; font-weight: 700; line-height: 1; }
+.stat-card .bi { font-size: 2rem; opacity: .25; }
+.table > :not(caption) > * > * { padding: .75rem; }
+.login-wrap { max-width: 400px; margin: 6vh auto; }
+.foto-bukti { max-width: 100%; max-height: 320px; border-radius: 8px; border: 1px solid #dee2e6; }
+.timeline { list-style: none; padding-left: 0; border-left: 2px solid #dbe3f5; margin-left: 6px; }
+.timeline li { position: relative; padding: 0 0 1rem 1.25rem; }
+.timeline li::before { content: ""; position: absolute; left: -7px; top: 5px; width: 12px; height: 12px;
+  border-radius: 50%; background: #0d6efd; border: 2px solid #fff; }
